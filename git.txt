@@ -24,3 +24,9 @@
 --* git fetch
 --* git pull
 --* git push
+
+6.Install git flow :
+--* sudo apt-get install git-flow
+
+7.Merge request
+

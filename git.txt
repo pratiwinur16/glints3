@@ -1,0 +1,26 @@
+1.Start a working are :
+--* git clone
+--* git init
+
+2.Work on the current repository :
+--* git add 
+--* mv 
+--* reset
+--* rm 
+--* git commit -m '[Yudi] - this my commit'
+
+3.Look at history :
+--* git log 
+--* git show 
+--* git status
+--* git diff
+
+4.Branching :
+--* git branch
+--* git checkout branch-name
+--* git checkout -b branch-name
+
+5.Collaborate :
+--* git fetch
+--* git pull
+--* git push

@@ -1,0 +1,31 @@
+1.Linux command file Navigation
+--** mkdir ---> make directory/folder
+--** cd ---> change directory
+--** pwd ---> print working directory
+--** ls ---> list directoty or file
+--** ls -a : List all contents, including files and directories
+--** ls -l : List all contents of directories in long format 
+--** ls -l : Order files and directories by the time they were last modified
+--** touch ---> make file
+--** cp --> cp filedir/filename filedir
+--** cp --> cp filedir/filename filedir/filename2 filedir
+--** mv --> mv filedir/filename filedir
+--** rm rf filedir
+
+Install git:
+1.sudo apt-get install git --> git --version
+
+Configurasi username dan email git:
+1.git config --globar user.name "Yudi krisnanidi"
+2.git config --globar user.email "yudi@mail.com"
+3.git config --list ---> check user and email
+
+
+Buat ssh.
+1.cd ~/.ssh pindah ke directory ssh, kalau tidak ada directory sshnya, directory sshnya di buat dulu pake command---> mkdir ~/.ssh
+2.ssh-keygen -t rsa -C "yudi@mail.com" -b 4096 ---> perintah untuk membuat ssh key
+3.nanti akan ada form untuk mengisi nama directory sshnya sama password
+4.di directory ssh akan ada 2 directory baru, satu public key dan satu private key.
+5.Private key memiliki ekstensi .pub, nanti ini yang akan di pasang ke remote repository seperti github, gitlab,dll.
+5.ambil private key tadi dengan command ---> cat namadirectory.pub
+6.Pasang private key tadi di remote repository seperti github atau gitlab

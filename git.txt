@@ -18,7 +18,7 @@
 4.Branching :
 --* git branch
 --* git checkout branch-name
---* git checkout -b branch-name
+--* git checkout -b branch-namenbb
 
 5.Collaborate :
 --* git fetch
